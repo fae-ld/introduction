@@ -1,0 +1,69 @@
+html{
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card{
+    height: 500px;
+    width: 350px;
+    border: 1px solid lightgreen;
+    border-radius: 30px;
+    background-color: white;
+    margin-top: 55px;
+    margin-left: 35%;
+}
+
+.card:hover{
+    box-shadow: 0 0 30px lightgreen;
+    transition: 0.2s;
+}
+.title h1{
+    font-size: 25px;
+    margin-left: 138px;
+    text-decoration: none;
+    font-weight: 300;
+}
+.card-profile img{
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 125px;
+    border-radius: 50%;
+}
+
+.student{
+    font-size: 10px;
+    opacity: 0.5;
+    margin-left: 105px;
+}
+
+.student span{
+    padding-left: 37px;
+}
+
+.desc{
+    font-size: 14px;
+    padding-left: 35px;
+    padding-right: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reachme a img{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.reachme img:hover{
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.reachme img:active{
+    opacity: 0.4;
+    transition: 0.3s;
+}
+.github img{
+    padding-left: 80px;
+}
